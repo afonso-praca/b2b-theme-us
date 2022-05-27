@@ -760,3 +760,9 @@
   color: var(--black-medium);
   text-align: center;
 }
+
+.locationMarkerIcon {
+  color: #555;
+  display: none !important;
+}
+
