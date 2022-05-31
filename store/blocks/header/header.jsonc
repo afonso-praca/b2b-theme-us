@@ -35,7 +35,7 @@
   "flex-layout.row#organization": {
     "children": ["b2b-user-widget"],
     "props": {
-      "blockClass": ["bg-fresh-blue-lightest"],
+      "blockClass": ["bg-blue-medium"],
       "fullWidth": true
     }
   },
@@ -51,6 +51,7 @@
       "drawer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
+      "flex-layout.col#text-speech",
       "login",
       "minicart.v2"
     ]
@@ -61,6 +62,21 @@
     "props": {
       "paddingLeft": 8,
       "width": "grow"
+    }
+  },
+
+  "flex-layout.col#text-speech": {
+      "children": [
+      "speech-to-text"
+    ]
+  },
+
+  "speech-to-text": {
+    "props": {
+      "lang": "en-US",
+      "iconHeight": "20px",
+      "iconWidth": "20px",
+      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Font_Awesome_5_solid_microphone.svg"    
     }
   },
 
