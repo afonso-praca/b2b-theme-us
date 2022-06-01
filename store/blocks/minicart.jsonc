@@ -112,7 +112,8 @@
         "sales-manager",
         "sales-representative",
         "customer-admin",
-        "customer-approver"
+        "customer-approver",
+        "customer-buyer"
       ]
     },
     "blocks": [
