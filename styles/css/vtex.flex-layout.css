@@ -200,7 +200,7 @@
 /* BEGIN - Trending Shelf */
 
 .flexRow--trendingSection {
-  background: #f3f9ff;
+  background: #fafafa;
   padding: 48px 0px;
   margin-bottom: 40px;
 }
@@ -441,10 +441,6 @@
   outline: 0;
 }
 
-.flexColChild--assembly-options {
-  /* max-width: 80%; */
-}
-
 .flexColChild--assembly-options :first-child {
   font-size: 14px;
   font-weight: 500;
@@ -524,8 +520,8 @@
 }
 
 .flexRow--add-to-cart :global(.vtex-button) {
-  background: #ff7d30;
-  border-color: #ff7d30;
+  background: #D31334;
+  border-color: #D31334;
   color: #fff;
   height: 52px;
 }
@@ -724,4 +720,8 @@
 
 .flexRow--productSpecificationGroupName {
   margin-bottom: 5px;
+}
+
+.flexRow--newsback {
+  background-color: #e7e7e7;
 }

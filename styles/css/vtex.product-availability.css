@@ -3,7 +3,7 @@
 .lowStockText {
   font-size: 12px;
   line-height: 16px;
-  color: #ff7d30;
+  color: #D31334;
   font-family: Roboto;
   font-weight: 700;
 }
@@ -17,7 +17,7 @@
 }
 
 .highStockText {
-  color: #ff5f00;
+  color: #D31334;
   font-weight: 500;
   font-size: 14px;
 }

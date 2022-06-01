@@ -6,8 +6,8 @@
   --black-dark: #000000;
   --fresh-blue: #0067c7;
   --fresh-blue-dark: #0067c7;
-  --fresh-blue-lightest: #f3f9ff;
-  --fresh-orange: #ff5f00;
+  --fresh-blue-lightest: #fafafa;
+  --fresh-orange: #D31334;
   --fresh-darkest: #003364;
   --green-dark: #468a2e;
   --black-medium: #717786;
@@ -19,6 +19,11 @@
   --lines-light: #dee7ef;
   --serious-blue-dark: #214d8e;
   --serious-black: #142032;
-  --serious-orange: #ff7d30;
+  --serious-orange: #D31334;
   --base: #fff;
+}
+
+:global(.vtex-store-link-0-x-link--vtex-button) {
+  background-color: #D31334 !important;
+  border-color: #D31334 !important;
 }

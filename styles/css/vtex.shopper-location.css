@@ -2,3 +2,9 @@
 .changeLocationContainer :global(.vtex-address-form-4-x-container) {
   border: 1px solid #A3AFBC;
 }
+
+.changeLocationGeoContainer :global(.vtex-button),
+.changeLocationSubmitContainer :global(.vtex-button) {
+  background-color: #D31334 !important;
+  border-color: #D31334 !important;
+}

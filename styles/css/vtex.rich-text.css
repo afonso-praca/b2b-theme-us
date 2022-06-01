@@ -553,6 +553,10 @@
   font-weight: 500;
 }
 
+.headingLevel3--newsletter-title {
+  color: #555 !important;
+}
+
 .container--newsletter-title,
 .wrapper--newsletter-title {
   width: 100%;

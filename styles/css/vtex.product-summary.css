@@ -37,7 +37,7 @@
   :global(.vtex-flex-layout-0-x-flexRow--product-summary-buy-button)
   :global(.vtex-button) {
   border: none;
-  background-color: #ff5f00;
+  background-color: #D31334;
   height: 48px;
   border-radius: 4px;
 }
@@ -234,7 +234,7 @@
   :global(.vtex-button) {
   border: none;
   height: 48px;
-  background: #ff5f00;
+  background: #D31334;
 }
 
 .element--comparison-page-summary .sellingPrice,
