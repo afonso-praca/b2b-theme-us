@@ -1,7 +1,7 @@
 {
   "vendor": "kevinyeebiz",
   "name": "b2bstore",
-  "version": "4.0.1",
+  "version": "4.0.5",
   "defaultLocale": "en-US",
   "builders": {
     "assets": "0.x",
