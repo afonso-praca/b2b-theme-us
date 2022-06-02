@@ -73,14 +73,14 @@
       },
     };
 
-    var poNumberInput = {
+  var poNumberInput = {
       input: null,
       init: function init() {
         poNumberInput.input = poNumberInput.buildInput();
       },
       buildInput: function buildInput() {
         return $(
-          '\n        <div style="\n          padding-right: 15px;\n          margin-bottom: 10px;\n        " id="poWrap">\n        <label> Purchase Order Number: (optional) </label>\n          <input \n            type="text"\n            id="poNumberInput" style="\n            font-size: 20px;\n            height: 36px;\n            line-height: 34px;\n            width: 100%;" \n            name="poNumber">\n          <span class="help error feedback" style="display: none">This field is required.</span>\n        </div>'
+          '\n        <div style="\n          padding-right: 15px;\n          margin-bottom: 10px;\n        " id="poWrap">\n        <label> </label>\n          <input \n            type="hidden"\n            id="poNumberInput" style="\n            font-size: 20px;\n            height: 36px;\n            line-height: 34px;\n            width: 100%;" \n            name="poNumber">\n          <span class="help error feedback" style="display: none">This field is required.</span>\n        </div>'
         );
       },
       showError: function showError() {
