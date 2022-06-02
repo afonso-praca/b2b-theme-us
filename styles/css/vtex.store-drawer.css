@@ -3,6 +3,11 @@
   z-index: 999;
 }
 
+.overlay--visible {
+  opacity: .5 !important;
+  transition:none !important; 
+}
+
 .openIconContainer {
   display: flex;
   align-items: center;
