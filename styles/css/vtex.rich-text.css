@@ -15,7 +15,7 @@
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: Montserrat;
   color: #000;
   margin: 0;
   margin-bottom: 24px;
@@ -166,15 +166,24 @@
 .link--bannerLink {
   width: 244px;
   height: 48px;
-  background-color: #0067c7;
-  border-radius: 4px;
-  color: #fff;
+  background-color: #fff;
+  border-radius: 0;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #12284c;
+  color: #12284c;
   font-size: 14px;
-  line-height: 48px;
+  line-height: 42px;
   font-weight: 700;
-  font-family: Roboto;
   display: block;
   text-decoration: none;
+  font-family: Montserrat;
+}
+
+.link--bannerLink:hover {
+  background-color: #12284c;
+  color: #fff;
+  border-color: #12284c;
 }
 
 /* END - BannerThird */
@@ -202,7 +211,7 @@
 .wrapper--benefitsItem .strong {
   font-size: 18px;
   line-height: 24px;
-  font-family: Roboto;
+  font-family: Montserrat;
   color: #000;
   font-weight: 500;
   display: block;
@@ -226,7 +235,7 @@
   margin-bottom: 16px;
   font-size: 18px;
   line-height: 24px;
-  font-family: Roboto;
+  font-family: Montserrat;
   font-weight: 500;
 }
 
@@ -273,7 +282,7 @@
   font-size: 24px;
   line-height: 32px;
   color: #000;
-  font-family: Roboto;
+  font-family: Montserrat;
   margin: 0;
 }
 
@@ -285,7 +294,7 @@
   line-height: 32px;
   color: #000;
   font-weight: 500;
-  font-family: Roboto;
+  font-family: Montserrat;
   margin: 0;
   margin-bottom: 16px;
 }

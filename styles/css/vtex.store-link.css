@@ -32,14 +32,17 @@
 .link--shopByLink {
   width: 100%;
   text-decoration: none;
+  color: #12284c;
+  transition: all 0.3s ease;
 }
 
 .link--shopByLink:hover :global(.vtex-rich-text-0-x-paragraph--shopByCategory) {
-  color: #D31334;
+  color: #f5333f;
+  font-weight: 700;
 }
 
 .link--shopByLink:hover .childrenContainer {
-  border: 1px solid #D31334;
+  border: 1px solid #f5333f;
 }
 
 .childrenContainer--shopByLink {
@@ -50,9 +53,9 @@
   max-width: 216px;
   height: 196px;
   background: #fafafa;
-  border-radius: 4px;
+  border-radius: 0;
   transition: all 0.3s ease;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
 }
 
 .childrenContainer--linkCategorySlider {
