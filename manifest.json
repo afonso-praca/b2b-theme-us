@@ -19,7 +19,8 @@
     "vtex.location-availability": "0.x",
     "vtex.shopper-location": "0.x",
     "vtex.wordpress-integration": "2.x",
-    "vtexarg.speech-to-text": "1.x"
+    "vtexarg.speech-to-text": "1.x",
+    "vtex.binding-selector":"2.x"
   },
   "dependencies": {
     "vtex.store": "2.x",

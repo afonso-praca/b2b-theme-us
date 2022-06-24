@@ -51,6 +51,8 @@
       "drawer",
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar",
+      "locale-switcher",
+      "binding-selector",
       "flex-layout.col#text-speech",
       "login",
       "minicart.v2"
