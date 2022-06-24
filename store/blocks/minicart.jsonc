@@ -134,10 +134,10 @@
   },
   "link#quote": {
     "props": {
-      "label": "Create a Quote",
+      "label": "Purchase Request",
       "displayMode": "button",
       "blockClass": ["vtex-button","order-quote"],
-      "href": "/b2b-quotes/create"
+      "href": "/orderquote/create"
     }
   },
 

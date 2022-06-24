@@ -66,8 +66,8 @@
   },
   "link#menu-order-quote": {
     "props": {
-      "label": "My Quotes",
-      "href": "/b2b-quotes",
+      "label": "My Requests",
+      "href": "/orderquote",
       "blockClass": "menu-order-quote"
     }
   },

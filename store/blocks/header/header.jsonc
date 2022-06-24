@@ -76,7 +76,7 @@
       "lang": "en-US",
       "iconHeight": "20px",
       "iconWidth": "20px",
-      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Font_Awesome_5_solid_microphone.svg"    
+      "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Font_Awesome_5_solid_microphone.svg"
     }
   },
 
@@ -210,8 +210,8 @@
 
   "link#orderQuote": {
     "props": {
-      "label": "My Quotes",
-      "href": "/b2b-quotes",
+      "label": "My Requests",
+      "href": "/orderquote",
       "blockClass": "orderQuote"
     }
   },
