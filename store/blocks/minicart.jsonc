@@ -117,21 +117,30 @@
       ]
     },
     "blocks": [
-      "allowed-content#minicart",
-      "disallowed-content#minicart"
+      "allowed-content#minicart"
     ]
   },
   "allowed-content#minicart": {
     "children": [
-      "minicart-checkout-button",
-      "link#quote"
+      "condition-layout.binding#cond42"
     ]
   },
-  "disallowed-content#minicart": {
-    "children": [
-      "link#quote"
-    ]
-  },
+
+  "condition-layout.binding#cond42": {
+     "props": {
+       "conditions": [
+         {
+           "subject": "bindingId",
+           "arguments": {
+             "id": "6b0540f7-06b7-4fbb-b2f8-474be5caf894"
+           }
+         }
+       ],
+       "Then": "minicart-checkout-button",
+       "Else": "link#quote"
+     }
+   },
+
   "link#quote": {
     "props": {
       "label": "Purchase Request",
