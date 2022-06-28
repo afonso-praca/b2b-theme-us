@@ -1,13 +1,27 @@
 .sellerMasterContainer {
   max-width: 1440px;
   width: 100%;
-  padding: 32px 32px 0px;
+  padding: 1.5rem;
   margin: 0px auto;
+  border-radius: 0;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #12284c;
+  color: #12284c;
+  margin-top: 2rem;
+}
+
+.sellerHeadText {
+  color: rgb(18, 40, 76);
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat;
 }
 
 .sellerHead {
   border-radius: 0px;
   background: #dee7ef;
+  margin-top: 1.5rem;
 }
 
 .sellerRow {
@@ -67,16 +81,15 @@
   flex-flow: column;
   border: none;
   padding: 0;
+  margin-top: 0;
+}
+
+.simulateShipping .vtex-address-form__postalCode {
+  padding-bottom: 0;
 }
 
 .simulateShipping :global(.vtex-button) {
-  margin: 0;
-  border: none;
-  height: 48px;
-  background: var(--fresh-orange);
-  margin-top: 16px;
-  outline: none;
-  border-radius: 4px;
+  display: none;
 }
 
 @media (max-width: 64rem) {

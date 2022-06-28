@@ -35,6 +35,7 @@
     "children": [
       "flex-layout.row#breadcrumb",
       "flex-layout.row#product-details",
+      "seller-table",
       "product-kit#buy-together", // This block won't work if it's not a direct children of store.product
       "flex-layout.row#description-and-gallery",
       "flex-layout.row#features",
