@@ -105,35 +105,35 @@
   "rich-text#headStripe1": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Today's Deals](/deals)"
+      "text": "[Our Work](/deals)"
     }
   },
 
   "rich-text#headStripe2": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[New Releases](/releases)"
+      "text": "[Who We Are](/releases)"
     }
   },
 
   "rich-text#headStripe3": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Top Sales](/top-sales)"
+      "text": "[Get Involved](/top-sales)"
     }
   },
 
   "rich-text#headStripe4": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Costumer Services](/services)"
+      "text": "[Top Marketplace Sellers](/services)"
     }
   },
 
   "rich-text#headStripe5": {
     "props": {
       "blockClass": "HeaderStripeText",
-      "text": "[Gift Cards](/gift-cards)"
+      "text": "[Most requested items](/gift-cards)"
     }
   },
 
