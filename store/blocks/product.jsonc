@@ -37,8 +37,7 @@
       "flex-layout.row#product-details",
       "product-kit#buy-together", // This block won't work if it's not a direct children of store.product
       "flex-layout.row#description-and-gallery",
-      "rich-text#other-sellers",
-      "seller-table",
+      "check-permission#pdp",
       "flex-layout.row#features",
       "flex-layout.row#specification",
       "flex-layout.row#reviews-and-ratings"
@@ -49,5 +48,27 @@
       "text": "Other Sellers",
       "blockClass": "other-sellers-heading"
     }
+  },
+  "check-permission#pdp": {
+    "props": {
+      "roles": [
+        "store-admin",
+        "sales-admin",
+        "sales-manager",
+        "sales-representative",
+        "customer-admin",
+        "customer-approver",
+        "customer-buyer"
+      ]
+    },
+    "blocks": [
+      "allowed-content#pdp"
+    ]
+  },
+  "allowed-content#pdp": {
+    "children": [
+      "rich-text#other-sellers",
+      "seller-table"
+    ]
   }
 }
