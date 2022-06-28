@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.flexCol--drawerInnerCol :global(.vtex-button)::before,
+/* .flexCol--drawerInnerCol :global(.vtex-button)::before,
 .flexCol--drawerInnerCol :global(.vtex-login-2-x-buttonLink)::before {
   content: url("assets/icons/drawerLoginIcon.svg");
   background-repeat: no-repeat;
@@ -28,19 +28,19 @@
   width: 18px;
   height: 20px;
   margin-right: 12px;
-}
+} */
 
 .flexCol--drawerInnerCol :global(.vtex-login-2-x-container) {
   float: none;
 }
 
-.flexCol--drawerInnerCol
+/* .flexCol--drawerInnerCol
   :global(.vtex-login-2-x-container)
   :global(.vtex-button) {
   width: 150px;
   display: flex;
   align-items: center;
-}
+} */
 
 .flexCol--drawerInnerCol :global(.vtex-login-2-x-label)::after {
   content: none;

@@ -5,7 +5,7 @@
 
 .overlay--visible {
   opacity: .5 !important;
-  transition:none !important; 
+  transition:none !important;
 }
 
 .openIconContainer {
@@ -16,10 +16,12 @@
 
 .closeIconButton--menuDrawer {
   margin-left: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .closeIconContainer--menuDrawer {
-  background: #f3f9ff;
+  background: #e7e7e7;
   margin-bottom: 40px;
 }
 

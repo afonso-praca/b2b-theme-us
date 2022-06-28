@@ -18,6 +18,7 @@
 
 .profile {
   color: #999;
+  padding-left: 0;
 }
 
 .sendButton :global(.vtex-button) {
